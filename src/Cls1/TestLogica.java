@@ -12,7 +12,6 @@ import javax.swing.JOptionPane;//Instruccion Que Nos importa la liberia o (clase
  * @author Daniel P.Calle
  * @version 04-08-2017/1.0
  */
-
 public class TestLogica {
 
     //Atributos Privados 
@@ -23,7 +22,7 @@ public class TestLogica {
     public static void main(String[] args) {
         int mayor = 0, vrPrecio = 0;//Declaramos y inicializamos las variables locales mayor, vrPrecio en cero
         String nom = "";//declaramos La variable local nombre como string(Caracter) secuencia de expresioens alfanumericas
-        
+
         //Ciclo for 
         for (int i = 1; i <= 3; i++) {
             nombre = JOptionPane.showInputDialog(null, "Digite Nombre: ");

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Cls2;
-
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -56,7 +56,10 @@ public class Practica2 {
 
     private void imprimir2(int dato)
     {
-        JOptionPane.showMessageDialog(null, dato);
+        /**la instruccion JOptionPane le invocamosasu metood showMessageDialog*/
+        /**configuar el icono de nuestra venta emergente.*/
+        /**Para eso Importamos de clase swing el metodod ImageIcon que permite asigar cualquier icono de una ruta que le establezcamos*/
+        JOptionPane.showMessageDialog(null, "El mayor es\t: "+dato, "Mostrar Info", JOptionPane.INFORMATION_MESSAGE,  new ImageIcon("src/imagenes/joystick.png"));
     }
     
     
