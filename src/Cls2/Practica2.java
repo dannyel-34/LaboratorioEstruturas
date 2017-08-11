@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Cls2;
-import javax.swing.ImageIcon;
+import javax.swing.ImageIcon;//Importamos nuestra metodo de la clase Swing que nos permite establecer un nuevo icono
 import javax.swing.JOptionPane;
 
 /**
