@@ -43,7 +43,7 @@ public class Practica2 {
     private int buscarMayor() {
         int mayor = vec[0];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 1; i < 10; i++) {
 
             if (vec[i] > mayor) {
                 mayor = vec[i];
@@ -51,7 +51,7 @@ public class Practica2 {
 
         }
 
-        return mayor;
+        return  mayor;
     }
 
     private void imprimir2(int dato)
